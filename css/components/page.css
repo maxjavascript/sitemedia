@@ -1,0 +1,38 @@
+.page {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: max-content 1fr max-content;
+  height: 100vh;
+
+  grid-template-areas:
+    'aside header'
+    'aside main'
+    'aside footer';
+}
+
+@media (min-width: 768px) {
+  .page {
+    grid-template-columns: 70px 1fr;
+  }
+}
+
+.page__aside {
+  grid-area: aside;
+  border: 1px solid red;
+}
+
+.page__header {
+  grid-area: header;
+  border: 1px solid red;
+}
+
+.page__main {
+  grid-area: main;
+  border: 1px solid red;
+  margin-bottom: 48px;
+}
+
+.page__footer {
+  grid-area: footer;
+  border: 1px solid red;
+}

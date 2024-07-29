@@ -1,0 +1,19 @@
+@import url('./normalize.css');
+
+@import url('./globals.css');
+
+@import url('./fonts.css');
+@import url('./variables.css');
+
+@import url('./components/aside.css');
+@import url('./components/breadcrumbs.css');
+@import url('./components/button.css');
+@import url('./components/conveyer.css');
+@import url('./components/list.css');
+@import url('./components/page-header.css');
+@import url('./components/page.css');
+@import url('./components/text.css');
+@import url('./components/visually-hidden.css');
+@import url('./components/wrapper.css');
+@import url('./components/table.css');
+@import url('./components/page-footer.css');

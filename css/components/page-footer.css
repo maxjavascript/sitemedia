@@ -1,0 +1,14 @@
+.page__footer {
+    outline: 1px solid rgb(233, 145, 44);
+}
+
+.page-footer {
+    width: 100%;
+    color: black;
+    background-color: #F2F4F4;
+}
+
+.page-footer .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 29%;
+}

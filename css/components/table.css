@@ -1,0 +1,46 @@
+.table-text-wrapper {
+    outline: 1px solid rgb(255, 0, 208);
+    overflow-x: auto;
+}
+
+.table {
+    border: 1px solid var(--palette-swamp);
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 48px;
+    table-layout: fixed;
+}
+
+.table-column-title,
+.table-cell {
+    font: normal 400 15px/48px 'Malgun Gothic', Helvetica, Arial, sans-serif;
+    border: 1px solid var(--palette-swamp);
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+    width: 100px;
+}
+
+.table-column-title {
+    font: normal 600 15px/48px 'Malgun Gothic Bold', Helvetica, Arial, sans-serif;
+}
+
+.table-row-title {
+    background-color: #F2F4F4;
+}
+
+.table-cell:first-child {
+    text-align: left;
+}
+
+.table-cell-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.table-cell-list .table-cell-item {
+    text-align: center;
+    margin: 0;
+}

@@ -1,0 +1,40 @@
+.text {
+  margin: 0;
+}
+
+.text--h1 {
+  font: normal 400 36px/48px 'Russo One', Helvetica, Arial, sans-serif;
+}
+
+.text--h2 {
+  font: normal 400 30px/48px 'Russo One', Helvetica, Arial, sans-serif;
+}
+
+.text--h3 {
+  font: normal 400 24px/48px 'Russo One', Helvetica, Arial, sans-serif;
+}
+
+.text--p1 {
+  font: normal 400 18px/30px 'Malgun Gothic', Helvetica, Arial, sans-serif; 
+}
+
+.text--p2 {
+  font: normal 400 16px/24px 'Malgun Gothic', Helvetica, Arial, sans-serif; 
+}
+
+.text--p3 {
+  font: normal 400 14px/24px 'Malgun Gothic', Helvetica, Arial, sans-serif; 
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--lowercase {
+  text-transform: lowercase;
+}
+
+.text--vertical {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}

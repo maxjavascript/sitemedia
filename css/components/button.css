@@ -1,0 +1,25 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 24px;
+  cursor: pointer;
+  border: none;
+  color: var(--palette-white);
+  max-width: 100%;
+  justify-content: center;
+}
+
+.button--primary {
+  background-color: var(--palette-swamp);
+}
+
+.button--secondary {
+  background-color: var(--palette-swamp-light);
+}
+
+.button--tertiary {
+  background-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}

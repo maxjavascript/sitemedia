@@ -1,0 +1,23 @@
+.aside {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: var(--palette-white);
+  background-color: var(--palette-turquoise);
+}
+
+.aside .text:last-of-type {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.aside .text:last-of-type a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

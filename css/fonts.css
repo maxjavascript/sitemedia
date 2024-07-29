@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Russo One'),
+    url('./../fonts/russo-one/400.woff2') format('woff2'),
+    url('./../fonts/russo-one/400.woff') format('woff'),
+    url('./../fonts/russo-one/400.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Malgun Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Malgun Gothic'),
+    url('./../fonts/malgun-gothic/400.woff2') format('woff2'),
+    url('./../fonts/malgun-gothic/400.woff') format('woff'),
+    url('./../fonts/malgun-gothic/400.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Malgum Gothic Bold';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url('./../fonts/malgum-gotic-bold/Malgun\ Gothic\ Bold.woff2') format('woff2'),
+    url('./../fonts/malgum-gotic-bold/Malgun\ Gothic\ Bold.woff') format('woff'),
+    url('./../fonts/malgum-gotic-bold/Malgun\ Gothic\ Bold.ttf') format('truetype');
+}

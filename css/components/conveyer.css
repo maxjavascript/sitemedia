@@ -1,0 +1,58 @@
+/* .conveyers__list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 148px;
+  margin-right: 220px;
+}
+
+.conveyer__item {
+  display: grid;
+  grid-template-columns: 720px 720px;
+  gap: 40px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.conveyer__item:nth-child(even) .conveyer__image {
+  order: 2;
+}
+
+.conveyer__image {
+  height: 566px;
+  margin-right: 20px;
+}
+
+.conveyer__about {
+  display: flex;
+  flex-direction: column;
+}
+
+.reductors-list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.conveyer__name {
+  font: var(--font-h2);
+}
+
+.conveyer__description {
+  font: var(--font-p);
+}
+
+.conveyer__advantages-title {
+  font: var(--font-h3);
+}
+
+.advantages-item {
+  font: var(--font-p);
+}
+
+.reductor-name {
+  font: var(--font-h3);
+}
+
+.reductor-description {
+  font: var(--font-p);
+} */
