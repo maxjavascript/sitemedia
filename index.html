@@ -9,20 +9,18 @@
 </head>
 
 <body class="page">
-  <h1 class="visually-hidden">Сайт Анжера</h1>
+  <h1 class="visually-hidden">Конвейеры | Официальный сайт "Компания Анжера"</h1>
   <div class="page__aside">
     <aside class="aside">
       <h2 class="visually-hidden">Сайдбар</h2>
 
       <button class="button button--primary ">
         <span class="visually-hidden">Переключить меню</span>
-        <div style="width: 30px; height: 30px;">
-          <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-            <rect y="5" width="30" height="3" fill="white" />
-            <rect y="14" width="30" height="3" fill="white" />
-            <rect y="23" width="30" height="3" fill="white" />
-          </svg>
-        </div>
+        <svg class="button__icon button__icon--small" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+          <rect y="5" width="30" height="3" fill="white" />
+          <rect y="14" width="30" height="3" fill="white" />
+          <rect y="23" width="30" height="3" fill="white" />
+        </svg>
       </button>
 
       <p class="text text--p1 text--center text--lowercase">Меню</p>
@@ -42,13 +40,12 @@
               <span class="visually-hidden">На главную</span>
               <img src="./images/logo.png" alt="Логотип">
             </a>
-            <img src="./images/orden.png" alt="Орден">
           </div>
 
           <ul class="page-header__ul">
             <li>
               <a class="button button--tertiary" href="">
-                <img src="./images/icons/circle-letter.png" alt="">
+                <img class="button__icon" src="./images/icons/search-icon.png" alt="Иконка поиска">
                 <span class="text text--p1">
                   Поиск
                 </span>
@@ -56,7 +53,7 @@
             </li>
             <li>
               <a class="button button--tertiary  " href="mailto:mail@angera.ru">
-                <img src="./images/icons/circle-phone.png" alt="">
+                <img class="button__icon" src="./images/icons/circle-letter.png" alt="Иконка письма">
                 <span class="text text--p1">
                   mail@angera.ru
                 </span>
@@ -65,19 +62,18 @@
           </ul>
 
           <ul class="page-header__ul">
+            <img class="button__icon" src="./images/icons/circle-phone.png" alt="Иконка телефона">
             <li>
               <a class="button button--tertiary  " href="tel:83845365596">
-                <img src="./images/icons/circle-phone.png" alt="">
                 <span class="text text--p1">
-                  +7 (38453) 6-55-96
+                  +7 (38453) 36-55-96
                 </span>
               </a>
             </li>
             <li>
               <a class="button button--tertiary  " href="tel:83845366919">
-                <img src="./images/icons/circle-phone.png" alt="">
                 <span class="text text--p1">
-                  +7 (38453) 6-69-19
+                  +7 (38453) 66-69-19
                 </span>
               </a>
             </li>
@@ -88,7 +84,7 @@
           <div class="page-header__inner-breadcrumbs">
             <ul class="breadcrumbs">
               <li class="breadcrumbs__item">
-                <a class="text text--p3">Главная</a>
+                <a class="text text--p3" href="./index.html">Главная</a>
               </li>
               <li class="breadcrumbs__item">
                 <span class="text text--p3">Продукция</span>
@@ -113,14 +109,14 @@
           </div>
 
           <div class="page-header__inner-buttons">
-            <button class="button button--primary ">
-              <img src="./images/icons/book.png" alt="">
+            <a class="button button--primary ">
+              <img class="button__icon" src="./images/icons/book.png" alt="Иконка книги">
               <span class="text text--p1">Скачать буклет</span>
-            </button>
-            <button class="button button--secondary ">
-              <img src="./images/icons/letter.png" alt="">
+            </a>
+            <a class="button button--secondary ">
+              <img class="button__icon" src="./images/icons/letter.png" alt="Иконка письма">
               <span class="text text--p1">Запросить стоимость</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -134,7 +130,9 @@
 
         <ul class="image-text-list">
           <li class="image-text-list__item">
-            <div class="image-text-list__image" style="background-image: url('./images/tools/privod-1.png');"></div>
+            <div class="image-text-list__image">
+              <img src="./images/tools/privod-1.png" width="566" height="566" alt="Привод крестовой разгрузки">
+            </div>
 
             <div class="image-text-list__description">
               <h3 class="text text--h2">Привод крестовой разгрузки</h3>
@@ -196,7 +194,9 @@
           </li>
 
           <li class="image-text-list__item">
-            <div class="image-text-list__image" style="background-image: url('./images/tools/privod-2.png');"></div>
+            <div class="image-text-list__image">
+              <img src="./images/tools/privod-2.png" width="566" height="566" alt="Привод боковой разгрузки">
+            </div>
 
             <div class="image-text-list__description">
               <h3 class="text text--h2">Привод боковой разгрузки</h3>
@@ -223,8 +223,10 @@
           </li>
 
           <li class="image-text-list__item">
-            <div class="image-text-list__image" style="background-image: url('./images/tools/privod-3.png');"></div>
-
+            <div class="image-text-list__image">
+              <img src="./images/tools/privod-3.png" width="566" height="566"
+                alt="Привод прямой разгрузки с фиксированным пересыпом">
+            </div>
 
             <div class="image-text-list__description">
               <h3 class="text text--h2">Привод прямой разгрузки с фиксированным пересыпом</h3>
@@ -259,9 +261,9 @@
           </li>
 
           <li class="image-text-list__item">
-            <div class="image-text-list__image" style="background-image: url('./images/tools/privod-4.png');"></div>
-
-
+            <div class="image-text-list__image">
+              <img src="./images/tools/privod-4.png" width="566" height="566" alt="Обратный телескопический привод">
+            </div>
             <div class="image-text-list__description">
               <h3 class="text text--h2">Обратный телескопический привод</h3>
               <p class="text text--p2">
@@ -282,8 +284,9 @@
           </li>
 
           <li class="image-text-list__item">
-            <div class="image-text-list__image" style="background-image: url('./images/tools/privod-5.png');"></div>
-
+            <div class="image-text-list__image">
+              <img src="./images/tools/privod-5.png" width="566" height="566" alt="Редукторы">
+            </div>
             <div class="image-text-list__description">
               <h3 class="text text--h2">Редукторы</h3>
               <p class="text text--p2">
@@ -465,7 +468,7 @@
   </div>
 
   <div class="page__footer">
-    <footer class="page-footer">
+    <!-- <footer class="page-footer">
       <h2 class="visually-hidden">Дополнительная информация</h2>
       <div class="wrapper">
         <ul class="page-footer__list">
@@ -569,7 +572,7 @@
         </div>
 
       </div>
-    </footer>
+    </footer> -->
   </div>
 </body>
 

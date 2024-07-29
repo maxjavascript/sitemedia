@@ -25,6 +25,11 @@
   width: 100%;
 }
 
+.page-header__logo a {
+  display: block;
+  max-width: 390px;
+}
+
 @media (min-width: 1200px) {
   .page-header__logo {
     width: unset;
@@ -46,7 +51,6 @@
 
 .page-header__inner {
   display: grid;
-
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, max-content);
   grid-template-areas:
@@ -83,4 +87,8 @@
 
 .page-header__inner-buttons {
   grid-area: buttons;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  height: max-content;
 }

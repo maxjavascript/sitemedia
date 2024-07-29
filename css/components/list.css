@@ -4,12 +4,12 @@
   list-style: none;
 }
 
-.list>li {
+.list > li {
   position: relative;
   padding-left: 32px;
 }
 
-.list>li::before {
+.list > li::before {
   content: "•";
   position: absolute;
   top: 4px;

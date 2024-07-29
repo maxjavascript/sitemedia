@@ -9,6 +9,28 @@
   background-color: var(--palette-turquoise);
 }
 
+.aside .button {
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .aside .button {
+    padding: 20px 24px;
+  }
+}
+
+.aside .button__icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 768px) {
+  .aside .button__icon  {
+    width: 32px;
+    height: 32px;
+  }
+}
+
 .aside .text:last-of-type {
   flex-grow: 1;
   width: 100%;
