@@ -2,12 +2,19 @@
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  padding: 8px 24px;
+  padding: 8px 16px;
   cursor: pointer;
   border: none;
   color: var(--palette-white);
   max-width: 100%;
   justify-content: center;
+
+  transition: opacity ease-in-out .2s;
+}
+
+.button:hover,
+.button:focus-visible {
+  opacity: 0.8;
 }
 
 .button--primary {

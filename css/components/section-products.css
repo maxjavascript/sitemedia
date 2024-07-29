@@ -13,7 +13,6 @@
 }
 
 .section-products__item {
-    outline: 1px solid rgb(0, 179, 84);
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px;

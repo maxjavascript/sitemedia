@@ -18,12 +18,24 @@
   font: normal 400 18px/24px 'Malgun Gothic', Helvetica, Arial, sans-serif;
 }
 
+.text--p1+.text--p1 {
+  margin-top: 12px;
+}
+
 .text--p2 {
   font: normal 400 16px/24px 'Malgun Gothic', Helvetica, Arial, sans-serif;
 }
 
+.text--p2+.text--p2 {
+  margin-top: 8px;
+}
+
 .text--p3 {
   font: normal 400 14px/20px 'Malgun Gothic', Helvetica, Arial, sans-serif;
+}
+
+.text--p3+.text--p3 {
+  margin-top: 4px;
 }
 
 .text--bold {
@@ -41,4 +53,21 @@
 .text--vertical {
   writing-mode: vertical-lr;
   text-orientation: mixed;
+}
+
+.text--underline {
+  text-decoration: underline;
+}
+
+.text--hover-no-decoration:hover {
+  text-decoration: none;
+}
+
+.text--hover-underline:hover,
+.text--hover-underline:focus-visible {
+  text-decoration: underline;
+}
+
+.text--nowrap {
+  text-wrap: nowrap;
 }

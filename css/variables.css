@@ -1,8 +1,9 @@
-
 :root {
+  --palette-aqua-breeze: #D8E7E4;
   --palette-black: #000000;
   --palette-white: #FFFFFF;
   --palette-swamp: #185C51;
   --palette-swamp-light: #497E76;
   --palette-turquoise: #5CA59B;
+  --palette-gray: #F2F4F3;
 }
