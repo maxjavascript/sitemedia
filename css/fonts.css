@@ -21,11 +21,12 @@
 }
 
 @font-face {
-  font-family: 'Malgum Gothic Bold';
+  font-family: 'Malgun Gothic';
   font-style: normal;
   font-weight: 600;
   src:
-    url('./../fonts/malgum-gotic-bold/Malgun\ Gothic\ Bold.woff2') format('woff2'),
-    url('./../fonts/malgum-gotic-bold/Malgun\ Gothic\ Bold.woff') format('woff'),
-    url('./../fonts/malgum-gotic-bold/Malgun\ Gothic\ Bold.ttf') format('truetype');
+    local('Malgun Gothic'),
+    url('./../fonts/malgun-gothic/600.woff2') format('woff2'),
+    url('./../fonts/malgun-gothic/600.woff') format('woff'),
+    url('./../fonts/malgun-gothic/600.ttf') format('truetype');
 }
