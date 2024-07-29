@@ -10,8 +10,16 @@
   font: normal 400 30px/42px 'Russo One', Helvetica, Arial, sans-serif;
 }
 
+.text--h2+.text--p2 {
+  margin-top: 24px;
+}
+
 .text--h3 {
   font: normal 400 24px/32px 'Russo One', Helvetica, Arial, sans-serif;
+}
+
+.text--h3+.text--p2 {
+  margin-top: 8px;
 }
 
 .text--p1 {
@@ -27,7 +35,11 @@
 }
 
 .text--p2+.text--p2 {
-  margin-top: 8px;
+  margin-top: 16px;
+}
+
+.text--p2+.text--h3 {
+  margin-top: 32px;
 }
 
 .text--p3 {

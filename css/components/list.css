@@ -4,12 +4,16 @@
   list-style: none;
 }
 
-.list > li {
+.list>li {
   position: relative;
   padding-left: 32px;
 }
 
-.list > li::before {
+.list>li:not(:first-child) {
+  margin-top: 16px;
+}
+
+.list>li::before {
   content: "•";
   position: absolute;
   top: 4px;
