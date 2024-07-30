@@ -33,3 +33,12 @@
         order: -1;
     }
 }
+
+.section-products__image {
+    width: 566px;
+}
+
+.section-products__image img {
+    max-width: 100%;
+    height: auto;
+}
