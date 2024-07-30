@@ -43,6 +43,19 @@
 }
 
 .page-footer__li--email {
-  color: var(--pallete-swamp);
+  color: var(--palette-swamp);
   margin-bottom: 24px;
+}
+
+.page-footer__logo-company {
+  flex-shrink: 0;
+  display: block;
+  width: 31px;
+  height: 31px;
+}
+
+.page-footer__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
